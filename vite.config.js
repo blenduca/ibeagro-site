@@ -28,6 +28,24 @@ function partials() {
   };
 }
 
+// Under a sub-path base (GitHub Pages), prefix root-relative links Vite doesn't rewrite itself.
+function baseLinks() {
+  let base = '/';
+  return {
+    name: 'ibeagro-base-links',
+    configResolved(c) { base = c.base; },
+    transformIndexHtml: {
+      order: 'post',
+      handler: (html) =>
+        base === '/' ? html : html.replace(/\b(href|content)="\/(?!\/)/g, (m, a, off) => (html.startsWith(`${base}`, off + m.length - 1) ? m : `${a}="${base}`)),
+    },
+    transform(code, id) {
+      if (base === '/' || !id.includes('/src/') || !id.endsWith('.js')) return null;
+      return code.replace(/(['"])\/(img\/|contato\.html)/g, `$1${base}$2`);
+    },
+  };
+}
+
 const pages = Object.fromEntries(
   [
     ...readdirSync(root).filter((f) => f.endsWith('.html')).map((f) => [f.replace('.html', ''), resolve(root, f)]),
@@ -40,7 +58,8 @@ const pages = Object.fromEntries(
 );
 
 export default defineConfig({
-  plugins: [partials()],
+  plugins: [partials(), baseLinks()],
+  base: process.env.BASE_PATH || '/',
   build: { rollupOptions: { input: pages }, chunkSizeWarningLimit: 900 },
   server: { host: true, port: 5180 },
 });
