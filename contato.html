@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <!-- @include head -->
+    <title>Contato e Parcerias — IBEAGRO</title>
+    <meta name="description" content="Fale com o IBEAGRO: estude conosco, capacite sua equipe, torne-se especialista parceiro ou proponha uma parceria institucional. Chapecó, Santa Catarina." />
+  </head>
+  <body data-page-ui>
+    <!-- @include header {"theme":"","page":"contato"} -->
+    <main id="conteudo">
+      <section class="page-hero" data-hero data-header-theme="dark" style="min-height:74svh">
+        <svg class="contours-bg" data-contours="contato" preserveAspectRatio="xMidYMid slice" aria-hidden="true"></svg>
+        <div class="wrap">
+          <nav class="crumbs coord" aria-label="Você está em" data-hero-in><a href="/">Início</a> / <span>Contato</span></nav>
+          <h1 data-split>Vamos construir novas <em>oportunidades para o agro?</em></h1>
+          <p class="lead" data-hero-in>Se você deseja conhecer nossos cursos, desenvolver sua equipe, propor uma parceria ou compartilhar sua experiência como especialista, queremos conversar com você.</p>
+        </div>
+      </section>
+
+      <section class="section" data-header-theme="light" aria-labelledby="help-title">
+        <div class="wrap">
+          <div class="sec-head">
+            <h2 id="help-title" data-split>Como podemos ajudar?</h2>
+          </div>
+          <div class="paths" role="group" aria-label="Escolha o motivo do contato" data-paths>
+            <button class="path-card" type="button" data-interest="geral" style="--c: var(--g-500)" data-reveal>
+              <svg><use href="#i-study" /></svg><h3>Quero estudar no IBEAGRO</h3><p>Receba informações sobre cursos, formações e próximas turmas.</p><span class="link-arrow">Receber informações <svg><use href="#i-arrow" /></svg></span>
+            </button>
+            <a class="path-card" href="/empresas.html#proposta" style="--c: var(--c-gestao)" data-reveal>
+              <svg><use href="#i-team" /></svg><h3>Quero capacitar minha equipe</h3><p>Conheça nossas soluções de educação corporativa e consultorias.</p><span class="link-arrow">Solicitar proposta <svg><use href="#i-arrow" /></svg></span>
+            </a>
+            <button class="path-card" type="button" data-path="especialista" aria-pressed="false" style="--c: var(--c-suinos)" data-reveal>
+              <svg><use href="#i-expert" /></svg><h3>Quero ser especialista parceiro</h3><p>Compartilhe seu conhecimento e participe da construção de programas educacionais.</p><span class="link-arrow">Cadastrar meu interesse <svg><use href="#i-arrow" /></svg></span>
+            </button>
+            <button class="path-card" type="button" data-path="parceria" aria-pressed="false" style="--c: var(--gold-600)" data-reveal>
+              <svg><use href="#i-partner" /></svg><h3>Quero propor uma parceria institucional</h3><p>Cooperação técnica, eventos, experiências e oportunidades para o agronegócio.</p><span class="link-arrow">Propor parceria <svg><use href="#i-arrow" /></svg></span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section mist" id="form" data-header-theme="light" aria-labelledby="form-title">
+        <div class="wrap two-col">
+          <div>
+            <h2 id="form-title" data-form-title>Fale com o IBEAGRO</h2>
+            <p class="lead" style="margin-top:1.5rem" data-reveal>Preencha o formulário. Retornaremos sua mensagem pelos contatos informados.</p>
+            <ul class="channels" data-reveal>
+              <li><a href="/contato.html" data-whatsapp><svg><use href="#i-wa" /></svg> WhatsApp</a></li>
+              <li><a href="/contato.html" data-community><svg><use href="#i-connect" /></svg> Comunidade gratuita</a></li>
+              <li><span><svg><use href="#i-pin" /></svg> Chapecó — Santa Catarina — Brasil</span></li>
+            </ul>
+          </div>
+          <form class="form" data-form="contato" novalidate data-reveal>
+            <input type="hidden" name="motivo" value="geral" data-motivo />
+            <div class="form-row two">
+              <div class="field"><label for="k-nome">Nome</label><input id="k-nome" name="nome" autocomplete="name" required /><span class="err"></span></div>
+              <div class="field"><label for="k-email">E-mail</label><input id="k-email" name="email" type="email" autocomplete="email" required /><span class="err"></span></div>
+            </div>
+            <div class="form-row two">
+              <div class="field"><label for="k-tel">WhatsApp</label><input id="k-tel" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" data-mask="phone" /><span class="err"></span></div>
+              <div class="field" data-only="geral parceria"><label for="k-org">Organização</label><input id="k-org" name="organizacao" autocomplete="organization" /><span class="err"></span></div>
+              <div class="field" data-only="especialista"><label for="k-area">Área de especialidade</label><input id="k-area" name="especialidade" placeholder="Ex.: sanidade avícola, gestão de cooperativas…" /><span class="err"></span></div>
+            </div>
+            <div class="field"><label for="k-msg">Mensagem</label><textarea id="k-msg" name="mensagem" required></textarea><span class="err"></span></div>
+            <label class="check"><input type="checkbox" name="consentimento" required /> <span>Autorizo o contato do IBEAGRO para responder esta mensagem.</span></label>
+            <button class="btn btn--green" type="submit">Enviar mensagem <svg class="arr"><use href="#i-arrow" /></svg></button>
+            <div class="form-success" role="status" tabindex="-1">
+              <svg><use href="#i-check" /></svg>
+              <h3>Mensagem enviada.</h3>
+              <p>Retornaremos pelos contatos informados.</p>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="section deep" data-header-theme="dark" aria-labelledby="sede-title">
+        <div class="wrap hq">
+          <div>
+            <h2 id="sede-title" data-split>Nossa sede.</h2>
+            <p class="lead" style="margin-top:1.5rem;color:#fff" data-reveal><strong>IBEAGRO — Instituto Brasileiro de Ensino do Agronegócio</strong><br />Chapecó, Santa Catarina, Brasil.</p>
+            <p data-reveal>Atuação nacional. Conhecimento conectado ao agro.</p>
+            <p class="coord" style="color:var(--gold)" data-reveal>27°06′S · 52°37′W</p>
+          </div>
+          <div class="hq-map" data-hq-map data-survey="coords" aria-hidden="true"></div>
+        </div>
+      </section>
+    </main>
+    <!-- @include footer -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

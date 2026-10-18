@@ -1,0 +1,18 @@
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#02240f" />
+<link rel="icon" type="image/svg+xml" href="/brand/emblem.svg" />
+<meta property="og:site_name" content="IBEAGRO" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:image" content="/img/campo-aereo.webp" />
+<script>
+  (function () {
+    var d = document.documentElement;
+    d.classList.add('js');
+    try {
+      if (!sessionStorage.getItem('ib-visit')) { d.classList.add('first-visit'); sessionStorage.setItem('ib-visit', '1'); }
+      else d.classList.add('is-loading');
+    } catch (e) {}
+    setTimeout(function () { d.classList.remove('is-loading', 'first-visit'); }, 5000);
+  })();
+</script>

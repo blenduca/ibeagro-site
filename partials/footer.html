@@ -1,0 +1,92 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img src="/brand/logo-v-dark.svg" alt="IBEAGRO — Instituto Brasileiro de Ensino do Agronegócio" width="70" height="64" />
+        <p>Conhecimento que impulsiona carreiras e transforma o agro.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="/">Início</a></li>
+          <li><a href="/instituto.html">O Instituto</a></li>
+          <li><a href="/formacoes.html">Cursos e Formações</a></li>
+          <li><a href="/empresas.html">Soluções Corporativas</a></li>
+          <li><a href="/contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Conecte-se</h4>
+        <ul>
+          <li><a href="/contato.html#form" data-social="instagram">Instagram</a></li>
+          <li><a href="/contato.html#form" data-social="linkedin">LinkedIn</a></li>
+          <li><a href="/contato.html" data-whatsapp>WhatsApp</a></li>
+          <li><a href="/contato.html" data-community>Comunidade gratuita</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Localização</h4>
+        <ul>
+          <li>Chapecó — Santa Catarina — Brasil</li>
+          <li class="coord">27°06′S · 52°37′W</li>
+          <li>Atuação nacional.<br />Conhecimento conectado ao agro.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span data-year>2026</span> IBEAGRO. Todos os direitos reservados.</span>
+      <nav aria-label="Legal"><a href="/contato.html#form" data-legal="privacy">Política de Privacidade</a><a href="/contato.html#form" data-legal="terms">Termos de Uso</a></nav>
+    </div>
+    <div class="foot-word" aria-hidden="true">IBE<span>AGRO</span></div>
+  </div>
+</footer>
+
+<div class="drawer-backdrop" data-drawer-close></div>
+<aside class="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" data-drawer data-lenis-prevent hidden>
+  <button class="icon-btn close" type="button" data-drawer-close aria-label="Fechar"><svg><use href="#i-close" /></svg></button>
+  <h2 id="drawer-title">Tenha prioridade nas próximas turmas</h2>
+  <p>Cadastre seu interesse<span data-course-label></span> e receba informações sobre programação, professores, investimento e abertura de turmas.</p>
+  <form class="form" data-form="interesse" novalidate>
+    <div class="field"><label for="d-nome">Nome completo</label><input id="d-nome" name="nome" autocomplete="name" required placeholder="Como podemos te chamar?" /><span class="err"></span></div>
+    <div class="form-row two">
+      <div class="field"><label for="d-email">E-mail</label><input id="d-email" name="email" type="email" autocomplete="email" required placeholder="voce@email.com" /><span class="err"></span></div>
+      <div class="field"><label for="d-whats">WhatsApp</label><input id="d-whats" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" required placeholder="(49) 90000-0000" data-mask="phone" /><span class="err"></span></div>
+    </div>
+    <div class="field">
+      <label for="d-curso">Formação de interesse</label>
+      <select id="d-curso" name="curso" required data-course-select>
+        <option value="">Selecione</option>
+        <option value="biosseguridade-avicultura">Biosseguridade Aplicada à Avicultura</option>
+        <option value="manejo-biosseguridade-suinocultura">Manejo e Biosseguridade na Suinocultura</option>
+        <option value="qualidade-do-leite">Qualidade do Leite e Gestão da Produção Leiteira</option>
+        <option value="supervisores-lideres">Formação de Supervisores e Líderes do Agro</option>
+        <option value="geral">Quero acompanhar todos os lançamentos</option>
+      </select>
+      <span class="err"></span>
+    </div>
+    <div class="form-row two">
+      <div class="field"><label for="d-cidade">Cidade / UF</label><input id="d-cidade" name="cidade" autocomplete="address-level2" placeholder="Chapecó / SC" /><span class="err"></span></div>
+      <div class="field">
+        <label for="d-perfil">Você é</label>
+        <select id="d-perfil" name="perfil">
+          <option value="">Selecione</option>
+          <option>Profissional do agro</option>
+          <option>Estudante</option>
+          <option>Produtor(a)</option>
+          <option>Gestor(a) / empresa</option>
+          <option>Outro</option>
+        </select>
+        <span class="err"></span>
+      </div>
+    </div>
+    <label class="check"><input type="checkbox" name="consentimento" required /> <span>Aceito receber comunicações do IBEAGRO sobre cursos e turmas.</span></label>
+    <p class="note">O cadastro é gratuito e não representa matrícula, reserva garantida de vaga ou compromisso de pagamento.</p>
+    <button class="btn" type="submit">Quero receber informações <svg class="arr"><use href="#i-arrow" /></svg></button>
+    <div class="form-success" role="status">
+      <svg><use href="#i-check" /></svg>
+      <h3>Interesse registrado.</h3>
+      <p>Você será avisado assim que os detalhes da formação forem divulgados.</p>
+      <button class="btn btn--ghost btn--sm" type="button" data-drawer-close>Voltar ao site</button>
+    </div>
+  </form>
+</aside>

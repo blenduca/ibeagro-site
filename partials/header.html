@@ -1,0 +1,50 @@
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<!-- @include icons -->
+<div class="loader" aria-hidden="true">
+  <div class="loader-inner">
+    <img src="/brand/emblem.svg" alt="" width="220" height="134" />
+    <span class="coord">27°06′S · 52°37′W — <b data-loader-pct>000</b></span>
+    <div class="loader-bar"><i></i></div>
+  </div>
+</div>
+<div class="veil" aria-hidden="true"><svg data-contours="veil" preserveAspectRatio="xMidYMid slice"></svg><img class="veil-mark" src="/brand/emblem.svg" alt="" width="220" height="134" /></div>
+
+<header class="site-header {{theme}}" data-header>
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="IBEAGRO — página inicial">
+      <img class="logo-dark" src="/brand/logo-h-dark.svg" alt="IBEAGRO — Instituto Brasileiro de Ensino do Agronegócio" width="180" height="44" />
+      <img class="logo-light" src="/brand/logo-h-light.svg" alt="" width="180" height="44" />
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <ul>
+        <li><a href="/" {{#is page=home}}aria-current="page"{{/is}}>Início</a></li>
+        <li><a href="/instituto.html" {{#is page=instituto}}aria-current="page"{{/is}}>O IBEAGRO</a></li>
+        <li><a href="/formacoes.html" {{#is page=formacoes}}aria-current="page"{{/is}}>Formações</a></li>
+        <li><a href="/empresas.html" {{#is page=empresas}}aria-current="page"{{/is}}>Para Empresas</a></li>
+        <li><a href="/#experiencias">Experiências</a></li>
+        <li><a href="/contato.html" {{#is page=contato}}aria-current="page"{{/is}}>Contato</a></li>
+      </ul>
+    </nav>
+    <button class="btn btn--sm header-cta" type="button" data-interest="">Lista de interesse <svg class="arr"><use href="#i-arrow" /></svg></button>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu-mobile" data-menu-btn><span></span><span></span><b class="sr-only">Abrir menu</b></button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="menu-mobile" data-menu data-lenis-prevent>
+  <svg class="contours-bg" data-contours="menu" preserveAspectRatio="xMidYMid slice" aria-hidden="true"></svg>
+  <nav aria-label="Menu">
+    <ol>
+      <li><a href="/">Início</a></li>
+      <li><a href="/instituto.html">O IBEAGRO</a></li>
+      <li><a href="/formacoes.html">Formações</a></li>
+      <li><a href="/empresas.html">Para Empresas</a></li>
+      <li><a href="/#experiencias">Experiências</a></li>
+      <li><a href="/contato.html">Contato</a></li>
+    </ol>
+  </nav>
+  <div class="menu-foot">
+    <button class="btn" type="button" data-interest="">Entrar na lista de interesse <svg class="arr"><use href="#i-arrow" /></svg></button>
+    <span class="coord">Chapecó · Santa Catarina · Brasil</span>
+  </div>
+</div>
+<span class="survey-cursor" aria-hidden="true"><svg viewBox="0 0 54 54" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="27" cy="27" r="14"/><path d="M27 2v15M27 37v15M2 27h15M37 27h15"/><circle cx="27" cy="27" r="1.6" fill="currentColor"/></svg><span class="lbl coord" data-cursor-lbl></span></span>
