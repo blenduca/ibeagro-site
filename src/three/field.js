@@ -229,11 +229,7 @@ export default function initField(ctx) {
   const ray = new THREE.Raycaster();
   const plane = new THREE.Plane(new THREE.Vector3(0, 1, 0), -0.6);
   const hit = new THREE.Vector3();
-  const hud = document.querySelector('[data-hud-alt]');
   const hudPos = document.querySelector('[data-hud-pos]');
-  const hudLbl = host.querySelector('.hud-r span');
-  if (hudLbl) hudLbl.textContent = 'Vigor da lavoura · NDVI';
-  if (hud) hud.textContent = '—';
   let inside = false;
   host.addEventListener('pointermove', (e) => {
     const r = host.getBoundingClientRect();
@@ -289,7 +285,6 @@ export default function initField(ctx) {
         probeOn = 1;
         if (frame % 6 === 0) {
           const p = shared.uProbe.value;
-          if (hud) hud.textContent = (0.32 + vigour(p.x, p.z) * 0.6).toFixed(2);
           if (hudPos) hudPos.textContent = `${(27.1004 + p.z * 0.0009).toFixed(4)}°S ${(52.6152 - p.x * 0.0009).toFixed(4)}°W`;
         }
       }
