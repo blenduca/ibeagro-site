@@ -1,16 +1,16 @@
 online.webp  https://images.unsplash.com/photo-1515378791036-0648a3ef77b2  (Unsplash License)
 evento.webp  https://images.unsplash.com/photo-1505373877841-8d25f7d46678  (Unsplash License)
 sala-aula.webp  https://images.unsplash.com/photo-1524178232363-1fb2b075b655  (Unsplash License)
-aves-close.webp  https://images.unsplash.com/photo-1553531009-c4605f302b47  (Unsplash License)
+aves-close.webp  Foto de aviário comercial com comedouros vermelhos fornecida pelo cliente (672 × 372).
 suinos-curral.webp  https://images.unsplash.com/photo-1651592279311-120424784c06  (Unsplash License)
-aves-galpao.webp  https://images.unsplash.com/photo-1441122456239-401e92b73c65  (Unsplash License)
+aves-galpao.webp  Foto de aviário comercial fornecida pelo cliente (1000 × 600).
 maos-muda.webp  https://images.unsplash.com/photo-1590682680695-43b964a3ae17  (Unsplash License)
 leite-curral.webp  https://images.unsplash.com/photo-1666878125618-ed3dddd1ab36  (Unsplash License)
 campo-colheita.webp  https://images.unsplash.com/photo-1535379453347-1ffd615e2e08  (Unsplash License)
 suinos.webp  https://images.unsplash.com/photo-1545468258-576dbac5faa9  (Unsplash License)
 tecnologia.webp  https://images.unsplash.com/photo-1627920769541-daa658ed6b59  (Unsplash License)
 paisagem.webp  https://images.unsplash.com/photo-1703850827351-a1be4d85a095  (Unsplash License)
-leite-freestall.webp  https://images.unsplash.com/photo-1646082275982-025ccc59bd2e  (Unsplash License)
+leite-freestall.webp  Foto de produção leiteira fornecida pelo cliente (679 × 452).
 muda.webp  https://images.unsplash.com/photo-1597916829826-02e5bb4a54e0  (Unsplash License)
 workshop.webp  https://images.unsplash.com/photo-1591115765373-5207764f72e7  (Unsplash License)
 campo-linhas.webp  https://images.unsplash.com/photo-1560493676-04071c5f467b  (Unsplash License)
@@ -18,9 +18,11 @@ especialista.webp  https://images.unsplash.com/photo-1791395275751-4f1ca7daef4a 
 coop-silos.webp  https://images.unsplash.com/photo-1684607961356-1d99dc31aee2  (Unsplash License)
 gestao.webp  https://images.unsplash.com/photo-1791395275735-e36814a0a6cb  (Unsplash License)
 coop-silo-milho.webp  https://images.unsplash.com/photo-1782852580207-11c100a628e2  (Unsplash License)
-leite-ordenha.webp  https://images.unsplash.com/photo-1791394893194-fb73acd17296  (Unsplash License)
+leite-ordenha.webp  Foto de ordenha em carrossel fornecida pelo cliente (726 × 422).
 equipe-tambo.webp  https://images.unsplash.com/photo-1791395275995-6798171153c0  (Unsplash License)
 visita-tecnica.webp  https://images.unsplash.com/photo-1791394893038-f59e2edb392c  (Unsplash License)
 campo-aereo.webp  https://images.unsplash.com/photo-1777058019293-73d54d4c4cae  (Unsplash License)
 tec-celular.webp  https://images.unsplash.com/photo-1791395387459-3e864ec5f344  (Unsplash License)
 gestao-conversa.webp  https://images.unsplash.com/photo-1791395028340-a5cc20010127  (Unsplash License)
+
+Fotos fornecidas pelo cliente: convertidas para WebP sem geração de conteúdo ou alteração das instalações/animais. A autoria e a licença de origem não foram informadas; não se aplica o crédito Unsplash anterior.
